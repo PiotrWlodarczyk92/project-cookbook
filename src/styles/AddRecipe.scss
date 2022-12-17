@@ -1,0 +1,54 @@
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.form-container, .recipes-container {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 8px;
+
+    font-family: "Roboto Slab";
+}
+
+.recipes-container {
+    flex-grow: 1;
+    gap: 10px;
+}
+
+.single-recipe {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+label {
+    text-align: left;
+    font-weight: 600;
+}
+
+input, button {
+    font-family: "Roboto Slab";
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: 600;
+    display: inline-block;
+}
+
+p {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
